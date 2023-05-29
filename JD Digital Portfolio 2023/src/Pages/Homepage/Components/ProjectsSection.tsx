@@ -26,7 +26,7 @@ const ProjectsSection = () => {
     }
   ]
   return (
-    <section>
+    <section id='projectSection'>
       <div className='mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8'>
         <h2 className='text-left text-neutral-800 font-bold sm:text-4xl'>Projects</h2>
         <p className='text-left mt-4 text-gray-500'>A few side projects I am currently working on</p>

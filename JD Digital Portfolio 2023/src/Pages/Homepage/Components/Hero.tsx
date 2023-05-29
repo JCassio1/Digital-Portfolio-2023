@@ -54,13 +54,13 @@ const Hero = () => {
             </p>
 
             <a
-              href='#'
+              href='https://www.linkedin.com/in/joselsondias/'
               className='text-left mt-8 inline-block rounded bg-indigo-600 px-12 py-3 mr-4 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400'
             >
               Peek my LinkedIn
             </a>
             <a
-              href='#'
+              href='https://github.com/JCassio1'
               className='text-left mt-8 inline-block rounded bg-neutral-900 px-12 py-3 text-sm font-medium text-white transition hover:bg-neutral-700 focus:outline-none focus:ring focus:ring-yellow-400'
             >
               Crawl my Github

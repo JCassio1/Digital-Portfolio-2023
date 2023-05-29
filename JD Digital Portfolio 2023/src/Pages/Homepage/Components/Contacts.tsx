@@ -2,7 +2,7 @@ import ReviewCards from './ReviewCards'
 
 const Contacts = () => {
   return (
-    <section>
+    <section id='contactSection'>
       <div className='mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8'>
         <h2 className='text-left text-neutral-800 font-bold sm:text-4xl'>Contacts</h2>
         <p className='text-left mt-5 text-gray-500'>Reach out and let's form a synergy</p>

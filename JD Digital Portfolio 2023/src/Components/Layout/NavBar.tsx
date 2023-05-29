@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll'
+
 const NavBar = () => {
   const developerName = '< 💻 {Joselson} >'
   return (
@@ -11,23 +13,18 @@ const NavBar = () => {
           <div className='md:flex md:items-center md:gap-12'>
             <nav aria-label='Site Nav' className='hidden md:block'>
               <ul className='flex items-center gap-6 text-sm'>
-                <li>
-                  <a className='text-gray-500 transition hover:text-gray-500/75' href='/'>
-                    Projects
-                  </a>
-                </li>
-
-                <li>
-                  <a className='text-gray-500 transition hover:text-gray-500/75' href='/'>
-                    Blog
-                  </a>
-                </li>
-
-                <li>
-                  <a className='text-gray-500 transition hover:text-gray-500/75' href='/'>
-                    Contacts
-                  </a>
-                </li>
+                <Link to='projectSection' smooth={true} duration={500}>
+                  <li>
+                    <a className='text-gray-500 transition hover:text-gray-500/75'>Projects</a>
+                  </li>
+                </Link>
+                <Link to='contactSection' smooth={true} duration={500}>
+                  <li>
+                    <a className='text-gray-500 transition hover:text-gray-500/75' href='/'>
+                      Contacts
+                    </a>
+                  </li>
+                </Link>
               </ul>
             </nav>
           </div>
