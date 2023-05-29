@@ -15,14 +15,12 @@ const NavBar = () => {
               <ul className='flex items-center gap-6 text-sm'>
                 <Link to='projectSection' smooth={true} duration={500}>
                   <li>
-                    <a className='text-gray-500 transition hover:text-gray-500/75'>Projects</a>
+                    <p className='text-gray-500 transition hover:text-gray-500/75'>Projects</p>
                   </li>
                 </Link>
                 <Link to='contactSection' smooth={true} duration={500}>
                   <li>
-                    <a className='text-gray-500 transition hover:text-gray-500/75' href='/'>
-                      Contacts
-                    </a>
+                    <p className='text-gray-500 transition hover:text-gray-500/75'>Contacts</p>
                   </li>
                 </Link>
               </ul>
