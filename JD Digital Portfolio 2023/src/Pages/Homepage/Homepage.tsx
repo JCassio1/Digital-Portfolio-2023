@@ -1,4 +1,5 @@
 import NavBar from '../../Components/Layout/NavBar'
+import Contacts from './Components/Contacts'
 import Hero from './Components/Hero'
 import ProjectsSection from './Components/ProjectsSection'
 
@@ -8,6 +9,7 @@ const Homepage = () => {
       <NavBar />
       <Hero />
       <ProjectsSection />
+      <Contacts />
     </>
   )
 }

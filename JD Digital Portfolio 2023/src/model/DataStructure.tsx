@@ -11,3 +11,11 @@ export interface projectData {
   coverImage: string
   link?: string
 }
+
+export interface reviewCard {
+  reviewComments: string
+  reviewBy: string
+  reviewTextColor: string
+  reviewerTextColor: string
+  cardBgColor: string
+}
