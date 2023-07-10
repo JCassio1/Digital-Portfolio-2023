@@ -29,6 +29,16 @@ const Contacts = () => {
             reviewerTextColor={'text-neutral-800'}
             cardBgColor={'bg-orange-600'}
           />
+
+          <ReviewCards
+            reviewComments={
+              "In my experience from managing and mentoring Joselson it's clear that he has the correct mindset for software development. He is a driven engineer that is able to focus both on the technical tasks assigned, as well as the project as a whole, and that combination improves the quality of the work he produces."
+            }
+            reviewBy={'Principal Software Engineer at Costain'}
+            reviewTextColor={'text-zinc-50'}
+            reviewerTextColor={'text-neutral-800'}
+            cardBgColor={'bg-green-600'}
+          />
         </div>
 
         <p className='text-left text-gray-500' style={{ marginTop: '70px' }}>
