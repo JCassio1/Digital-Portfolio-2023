@@ -15,9 +15,7 @@ const Contacts = () => {
               'Curious and eager to learn, Joselson is always finding ways to improve or develop his skills. Combined with his strong methodical and structured approach, this thirst for feedback allows Joselson to consistently deliver high quality output.'
             }
             reviewBy={"Costain's Digital Delivery lead"}
-            reviewTextColor={'text-zinc-50'}
-            reviewerTextColor={'text-neutral-400'}
-            cardBgColor={'bg-indigo-600'}
+            workType={'Managed Joselson'}
           />
 
           <ReviewCards
@@ -25,9 +23,7 @@ const Contacts = () => {
               'As a team we have benefited greatly from Joselson pro-active and detailed approach to project delivery, ranging from everything from requirements gathering to coding.'
             }
             reviewBy={"Costain's Digital Requirements & Revenue Manager"}
-            reviewTextColor={'text-zinc-50'}
-            reviewerTextColor={'text-neutral-800'}
-            cardBgColor={'bg-orange-600'}
+            workType={'Worked with Joselson'}
           />
 
           <ReviewCards
@@ -35,9 +31,7 @@ const Contacts = () => {
               "In my experience from managing and mentoring Joselson it's clear that he has the correct mindset for software development. He is a driven engineer that is able to focus both on the technical tasks assigned, as well as the project as a whole, and that combination improves the quality of the work he produces."
             }
             reviewBy={'Principal Software Engineer at Costain'}
-            reviewTextColor={'text-zinc-50'}
-            reviewerTextColor={'text-neutral-800'}
-            cardBgColor={'bg-green-600'}
+            workType={'Worked with Joselson'}
           />
         </div>
 

@@ -15,7 +15,5 @@ export interface projectData {
 export interface reviewCard {
   reviewComments: string
   reviewBy: string
-  reviewTextColor: string
-  reviewerTextColor: string
-  cardBgColor: string
+  workType: string
 }
