@@ -7,7 +7,9 @@ const Contacts = () => {
         <h2 className='text-left text-neutral-800 font-bold sm:text-4xl'>Contacts</h2>
         <p className='text-left mt-5 text-gray-500'>Reach out and let's form a synergy</p>
 
-        <h4 className='mt-10 text-left text-sm text-neutral-800 font-bold sm:text-xl'>Said about Joselson</h4>
+        <h4 className='mt-10 text-left text-sm text-neutral-800 font-bold sm:text-xl'>
+          Comments about Joselson's work ethic:
+        </h4>
 
         <div className='mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
           <ReviewCards
