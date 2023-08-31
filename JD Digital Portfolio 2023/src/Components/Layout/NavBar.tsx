@@ -23,6 +23,11 @@ const NavBar = () => {
                     <p className='text-gray-500 transition hover:text-gray-500/75'>Contacts</p>
                   </li>
                 </Link>
+                <a href='https://medium.com/@joselsondias'>
+                  <li>
+                    <p className='text-gray-500 transition hover:text-gray-500/75'>Blog</p>
+                  </li>
+                </a>
               </ul>
             </nav>
           </div>
