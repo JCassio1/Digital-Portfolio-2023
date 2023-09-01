@@ -22,7 +22,7 @@ const Contacts = () => {
 
           <ReviewCards
             reviewComments={
-              'As a team we have benefited greatly from Joselson pro-active and detailed approach to project delivery, ranging from everything from requirements gathering to coding.'
+              'As a team we have benefited greatly from Joselson pro-active and detailed approach to project delivery, ranging from everything from requirements gathering to coding. I have worked with Joselson multiple times and he is excellent.'
             }
             reviewBy={"Costain's Digital Requirements & Revenue Manager"}
             workType={'Worked with Joselson'}
