@@ -1,5 +1,6 @@
 import NavBar from '../../Components/Layout/NavBar'
 import Contacts from './Components/Contacts'
+import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import ProjectsSection from './Components/ProjectsSection'
 import SectionTitle from './Components/SectionTitle'
@@ -14,6 +15,7 @@ const Homepage = () => {
       <ProjectsSection />
       <Skills />
       <Contacts />
+      <Footer />
     </>
   )
 }
